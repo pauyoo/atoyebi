@@ -63,10 +63,15 @@ ul {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
+
 .project-card img {
     width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
     border-radius: 5px;
 }
+
 
 form {
     display: flex;
@@ -92,4 +97,14 @@ footer {
     padding: 20px;
     background: #0a2540;
     color: #fff;
+}
+
+
+@media (max-width: 768px) {
+    .project-card img {
+        width: 100%;
+        height: auto;
+        display: block;
+        object-fit: contain;
+    }
 }
