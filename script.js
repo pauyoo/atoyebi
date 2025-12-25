@@ -5,7 +5,7 @@ document.getElementById("contactForm").addEventListener("submit", function(e) {
     const email = document.getElementById("email").value;
     const message = document.getElementById("message").value;
 
-    const mailtoLink = `mailto:your@email.com?subject=Portfolio Contact from ${name}&body=Email: ${email}%0A%0A${message}`;
+    const mailtoLink = `mailto:paulayodele04@gmail.com?subject=Portfolio Contact from ${name}&body=Email: ${email}%0A%0A${message}`;
 
     window.location.href = mailtoLink;
 
