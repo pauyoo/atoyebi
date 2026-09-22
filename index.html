@@ -19,7 +19,7 @@
 <section id="about">
     <h2>My Story</h2>
     <div class="about-content">
-        <img src="profileimg.jpg" alt="Profile Photo">
+        <img src="profileimg.jpg" alt="Profile Photo" loading="lazy">
         <p>
             My journey into technology began with a curiosity about how data drives decisions.
             Over the years, I have built strong foundations in data science, machine learning,
@@ -44,26 +44,19 @@
     <h2>Projects</h2>
     <div class="projects-grid">
 
+        <!-- Heart Disease Prediction App (Featured) -->
         <div class="project-card">
-            <img src="claim.png" alt="Project 1"><img loading="lazy">
-            <h3>Insurance Claim Prediction Model</h3>
-            <p>An automated predictive model designed to identify policyholders likely to file a claim.</p>
-            <a href="https://github.com/pauyoo/insurance-claim-prediction" target="_blank" class="btn">
-                View Repo
-            </a>
-
-        </div>
-                <div class="project-card">
-            <img src="churn.png" alt="Project 1"><img loading="lazy">
-            <h3>Insurance Churn Prediction Model</h3>
-            <p>A predictive model designed to identify customers likely to be a ruturn buyer.</p>
-            <a href="https://customer-churn-pred-model.streamlit.app/" target="_blank" class="btn">
-                Try App
+            <img src="heart_disease_banner.png" alt="Heart Prediction App" loading="lazy">
+            <h3>Heart Risk Prediction App</h3>
+            <p>An end-to-end machine learning pipeline and interactive Streamlit web dashboard utilizing a tuned Random Forest classifier for clinical risk assessment.</p>
+            <a href="https://heart-risk-predictions.streamlit.app/" target="_blank" class="btn">
+                Try The Model
             </a>
         </div>
 
+        <!-- Pregnancy Risk Predictor -->
         <div class="project-card">
-            <img src="pregnancy.png" alt="Project 2"><img loading="lazy">
+            <img src="pregnancy.png" alt="Pregnancy Risk Predictor" loading="lazy">
             <h3>Pregnancy Risk Predictor</h3>
             <p>A machine learning tool that predicts pregnancy risk levels based on clinical health data.</p>
             <a href="https://safe-pregnancy-prediction.streamlit.app/" target="_blank" class="btn">
@@ -71,27 +64,48 @@
             </a>
         </div>
 
+        <!-- Insurance Claim Prediction Model -->
         <div class="project-card">
-            <img src="Titanic_survival.png" alt="Project 3"><img loading="lazy">
-            <h3>Titanic Survival</h3>
-            <p>Predict the survival probability of passengers based on demographic and voyage data from the 1912 disaster.</p>
-            <a href="https://github.com/pauyoo/titanic" target="_blank" class="btn">
-                View More
+            <img src="claim.png" alt="Insurance Claim Prediction Model" loading="lazy">
+            <h3>Insurance Claim Prediction Model</h3>
+            <p>An automated predictive model designed to identify policyholders likely to file a claim.</p>
+            <a href="https://github.com/pauyoo/insurance-claim-prediction" target="_blank" class="btn">
+                View Repo
             </a>
         </div>
 
+        <!-- Insurance Churn Prediction Model -->
         <div class="project-card">
-            <img src="covid19.png" alt="Project 3"><img loading="lazy">
-            <h3>COVID</h3>
+            <img src="churn.png" alt="Insurance Churn Prediction Model" loading="lazy">
+            <h3>Insurance Churn Prediction Model</h3>
+            <p>A predictive model designed to identify customers likely to be a return buyer.</p>
+            <a href="https://customer-churn-pred-model.streamlit.app/" target="_blank" class="btn">
+                Try App
+            </a>
+        </div>
+
+        <!-- Titanic Survival -->
+        <div class="project-card">
+            <img src="Titanic_survival.png" alt="Titanic Survival" loading="lazy">
+            <h3>Titanic Survival Prediction (In-View)</h3>
+            <p>Predict the survival probability of passengers based on demographic and voyage data from the 1912 disaster.</p>
+            <a href="https://github.com/pauyoo/titanic" target="_blank" class="btn">
+                View Repo
+            </a>
+        </div>
+
+        <!-- COVID-19 Analysis -->
+        <div class="project-card">
+            <img src="covid19.png" alt="COVID-19 Analysis" loading="lazy">
+            <h3>COVID-19 Transmission Analysis (In-View)</h3>
             <p>Analyze global transmission patterns and forecast future infection rates and mortality using multivariate datasets.</p>
             <a href="https://github.com/pauyoo/Covid19" target="_blank" class="btn">
-                View More
+                View Repo
             </a>
         </div>
 
     </div>
 </section>
-
 
 <section id="cv">
     <h2>My CVs</h2>
@@ -106,7 +120,6 @@
     </a>
 </section>
 
-
 <section id="contact">
     <h2>Contact Me</h2>
     <form id="contactForm">
@@ -119,7 +132,7 @@
 </section>
 
 <footer>
-    <p>© 2025 Paul Atoyebi. All rights reserved.</p>
+    <p>© 2026 Paul Atoyebi. All rights reserved.</p>
 </footer>
 
 <script src="script.js"></script>
